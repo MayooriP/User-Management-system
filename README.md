@@ -2,7 +2,8 @@
 
 ## Description
 
-The **User Management System** is a web application built using **Java**, **Spring Boot**, **JDBC**, and **SQL**. It allows administrators to manage user data, perform CRUD operations, and includes functionality for users to upload video URLs (such as YouTube links) associated with their profiles.
+The **User Management System** is a web application built using **Java**, **Spring Boot**, **JDBC**, and **SQL**.
+It allows administrators to manage user data, perform CRUD operations.
 
 ### Features
 
@@ -37,10 +38,11 @@ The **User Management System** is a web application built using **Java**, **Spri
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/MayooriP/User-Management-system.git
-Navigate to the project directory:
-
+## Navigate to the project directory:
 cd User-Management-System
-Configure the database: Open src/main/resources/application.properties and update the database details:
+
+## Configure the database: 
+Open src/main/resources/application.properties and update the database details:
 
 ## properties
 
@@ -51,7 +53,9 @@ spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
 
 ## Build and run the project:
 mvn spring-boot:run
-Access the application: Open http://localhost:8080 in your browser or use Postman for API testing.
+
+## Access the application: 
+Open http://localhost:8080 in your browser or use Postman for API testing.
 
 ## API Endpoints
 GET /users - Get all users
